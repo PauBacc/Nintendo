@@ -2,8 +2,7 @@ package test;
 
 import java.util.Scanner;
 
-import metier.Console;
-import metier.Jeu;
+import metier.*;
 
 public class Test {
 
@@ -34,8 +33,8 @@ public class Test {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
-		Console c1 = new Console ("Switch");
-		Console c2 = new Console ("Ps5");
+		Console c1 = new Hybride ("Switch");
+		Console c2 = new Salon ("Ps5");
 		Jeu j1 = new Jeu ("MarioKart",c1);
 		Jeu j2 = new Jeu ("Fifa",c2);
 		Jeu j3 = new Jeu ("Pso2",c2);
