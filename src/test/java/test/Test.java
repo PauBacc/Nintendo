@@ -2,6 +2,7 @@ package test;
 
 import java.util.Scanner;
 
+import metier.Boutique;
 import metier.Console;
 import metier.Jeu;
 
@@ -41,6 +42,8 @@ public class Test {
 		Jeu j3 = new Jeu ("Pso2",c2);
 		Jeu j4 = new Jeu ("Dmc",c2);
 		Jeu j5 = new Jeu ("Fornite",c1);
+		Boutique b = new Boutique("Badr","Paris 75006");
+		
 	}
 
 }
