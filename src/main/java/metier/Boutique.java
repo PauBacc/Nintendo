@@ -3,7 +3,8 @@ package metier;
 public class Boutique {
 	private String nom;
 	private String adresse;
-	private Boutique(String nom, String adresse) {
+	
+	public Boutique(String nom, String adresse) {
 		this.nom = nom;
 		this.adresse = adresse;
 	}
