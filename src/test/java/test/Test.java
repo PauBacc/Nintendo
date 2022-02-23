@@ -1,8 +1,9 @@
 package test;
 
+import java.time.LocalDate;
 import java.util.Scanner;
-
 import metier.*;
+
 
 public class Test {
 
@@ -33,13 +34,15 @@ public class Test {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
-		Console c1 = new Hybride ("Switch");
-		Console c2 = new Salon ("Ps5");
+		Console c1 = new Hybride ("Switch", 250.0, LocalDate.parse("2017-03-17"));
+		Console c2 = new Salon ("Ps5", 1000.0, LocalDate.parse("2020-11-19"));
 		Jeu j1 = new Jeu ("MarioKart",c1);
 		Jeu j2 = new Jeu ("Fifa",c2);
 		Jeu j3 = new Jeu ("Pso2",c2);
 		Jeu j4 = new Jeu ("Dmc",c2);
 		Jeu j5 = new Jeu ("Fornite",c1);
+		Boutique b = new Boutique("Badr","Paris 75006");
+		
 	}
 
 }
