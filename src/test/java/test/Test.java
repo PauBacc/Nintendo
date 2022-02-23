@@ -1,7 +1,11 @@
 package test;
 
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Scanner;
 
+import metier.Boutique;
+import metier.Client;
 import metier.Console;
 import metier.Jeu;
 
@@ -41,6 +45,19 @@ public class Test {
 		Jeu j3 = new Jeu ("Pso2",c2);
 		Jeu j4 = new Jeu ("Dmc",c2);
 		Jeu j5 = new Jeu ("Fornite",c1);
+		
+		List<String> l1=new ArrayList();
+		List<String> l2=new ArrayList();
+		
+		Client client1=new Client(l1);
+		Client client2=new Client(l2);
+		
+		Boutique b1=new Boutique("GameCash","203 rue Saint-Catherine 33000 Bordeaux");
+		j1.setBoutique(b1);
+		j2.setBoutique(b1);
+		j3.setBoutique(b1);
+		j4.setBoutique(b1);
+		j5.setBoutique(b1);
 	}
 
 }
