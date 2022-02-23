@@ -1,6 +1,7 @@
 package test;
 
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
 import java.util.Scanner;
 
@@ -48,6 +49,8 @@ public class Test {
 		
 		List<String> l1=new ArrayList();
 		List<String> l2=new ArrayList();
+		Collections.addAll(l1,"fifa","pso2","fornite");
+		Collections.addAll(l2,"Dmc","pso2","Mariokart");
 		
 		Client client1=new Client(l1);
 		Client client2=new Client(l2);
