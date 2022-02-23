@@ -7,14 +7,8 @@ public class Jeu {
 	private String titre;
 	private Console console;
 	private Boutique boutique;
-	
-	
-	
-	public Jeu(String titre, Console console) {
-		this.titre = titre;
-		this.console = console;
-	}
-	
+
+
 
 
 
@@ -66,10 +60,12 @@ public class Jeu {
 
 
 
+
 	@Override
 	public String toString() {
 		return "Jeu [titre=" + titre + ", console=" + console + ", boutique=" + boutique + "]";
 	}
-	
+
+
 	
 }
